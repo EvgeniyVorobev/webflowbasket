@@ -7089,12 +7089,13 @@
 	}
 		
 	.video_modal {
-		position: fixed;
-		z-index: 15000;
-		height: 100vh;
-		width: 100vw;
-		background: rgba(0, 0, 0, .8);
-		display: none
+position: fixed;
+    z-index: 15000;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, .8);
+    top: 0;
+    left: 0;
 	}
 	.video_modal-inner {
 		display: flex;
