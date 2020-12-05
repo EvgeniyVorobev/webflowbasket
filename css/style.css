@@ -7089,6 +7089,7 @@
 	}
 		
 	.video_modal {
+		display: none;
 position: fixed;
     z-index: 15000;
     height: 100vh;
